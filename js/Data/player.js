@@ -39,14 +39,14 @@ var playerData ={
 		//The walwidth:128, height:128,
 		walk:
 		{
-			fps:1,
+			fps:15,
 			cycle:true,
 			frames:
 			[
-				{width:128, height:128, startX:512, startY:0},
-				{width:128, height:128, startX:640, startY:0},
-				{width:128, height:128, startX:768, startY:0},
-				{width:128, height:128, startX:896, startY:0}
+				{width:128, height:128, startX:512, startY:-3},
+				{width:128, height:128, startX:640, startY:-3},
+				{width:128, height:128, startX:768, startY:-3},
+				{width:128, height:128, startX:896, startY:-3}
 			]
 		},
 		//The jump animation 
