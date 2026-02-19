@@ -25,7 +25,7 @@ var playerData ={
 		//The idle animation 
     	idle:
 		{
-			fps:15,
+			fps:12,
 			cycle:true,
 			frames:
 			[
@@ -52,25 +52,28 @@ var playerData ={
 		//The jump animation 
 		jump:
 		{
-			fps:15,
+			fps:12,
 			cycle:false,
 			frames:
 			[
-				{width:128, height:128, startX:640, startY:0}
+				{width:128, height:128, startX:1536, startY:0},
+				{width:128, height:128, startX:1664, startY:0},
+				{width:128, height:128, startX:1792, startY:0},
+				{width:128, height:128, startX:1920, startY:0},
+				{width:128, height:128, startX:2048, startY:0}
 			]
 		},
 		//The crouch animation 
 		crouch:
 		{
-			fps:15,
+			fps:10,
 			cycle:true,
 			frames:
 			[
-				{width:128, height:128, startX:768, startY:0},
-				{width:128, height:128, startX:768, startY:0},
-				{width:128, height:128, startX:768, startY:0},
-				{width:128, height:128, startX:768, startY:0},
-				{width:128, height:128, startX:896, startY:0}
+				{width:128, height:128, startX:1024, startY:-3},
+				{width:128, height:128, startX:1152, startY:-3},
+				{width:128, height:128, startX:1280, startY:-3},
+				{width:128, height:128, startX:1408, startY:-3}
 			]
 		},
 		//The attack animation 
