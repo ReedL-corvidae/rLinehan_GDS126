@@ -93,6 +93,16 @@ var playerData ={
 				{width:128, height:128, startX:2816, startY:-3}
 				
 			]
+		},
+		fireball:
+		{
+			fps:8,
+			cycle:true,
+			frames:
+			[
+				{width:128, height:128, startX:2944, startY:0},
+				{width:128, height:128, startX:3072, startY:-3}
+			]
 		}
 	}
 		
