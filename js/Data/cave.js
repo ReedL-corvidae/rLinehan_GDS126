@@ -3,20 +3,12 @@ var caveData ={
 	info:{
 		layout:[
 			[13,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,7],
-			[13,14,14,14,14,15,18,16,17,17,16,13,14,14,14,15,16,16,17,16,16,18,16,17,16,18,16,13,14,15,16,17,16,16,10,16,10,13,14,14,14,14,15,18,16,17,13,14,14,14,14,14,14,14,15,16,17,13,14,14,15,16,17,17,16,16,16,17,13,14,14,14,14,7],
 			[13,15,x,10,x,10,x,x,x,x,x,x,17,10,18,x,x,x,x,x,x,x,x,x,x,x,x,10,18,x,x,x,x,x,x,x,x,10,17,10,x,18,10,x,x,x,10,18,10,16,17,10,18,10,x,x,x,10,17,10,x,x,x,x,x,x,x,x,x,10,10,16,18,7],
 			[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
 			[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
-			[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
-			[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
-			[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
-			[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
-			[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
 			[10,10,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
-			[x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
-			[x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,14,14,14,14,14,14,14,14,14,14,14,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,14,14,14,14,14,14,14,7],
-			[x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,x,x,x,x,x,x,x,x,x,x,x,x,x,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,7],
-			[14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,7,8,8,8,8,8,8,8,8,8,8,8,8],
+			[x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,20,x,x,x,x,20,19,x,x,x,x,20,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,19,20,x,x,x,x,x,x,20,19,x,x,x,7],
+			[x,x,x,x,x,x,x,x,x,20,x,x,x,x,19,x,x,x,x,x,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,x,x,19,x,x,x,20,x,x,20,19,x,x,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,7],
 			[14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8]
 			
 			
@@ -29,113 +21,113 @@ var caveData ={
 				fps:5,
 				cycle:false,
 				frames:[
-					{width:32, height:32, startX:0, startY:0}
+					{width:64, height:64, startX:0, startY:0}
 				]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:32, startY:0}]
+				frames:[{width:64, height:64, startX:64, startY:0}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:64, startY:0}]
+				frames:[{width:64, height:64, startX:128, startY:0}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:96, startY:0}]
+				frames:[{width:64, height:64, startX:192, startY:0}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:128, startY:0}]
+				frames:[{width:64, height:64, startX:256, startY:0}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:160, startY:0}]
+				frames:[{width:64, height:64, startX:320, startY:0}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:192, startY:0}]
+				frames:[{width:64, height:64, startX:384, startY:0}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:224, startY:0}]
+				frames:[{width:64, height:64, startX:448, startY:0}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:256, startY:0}]
+				frames:[{width:64, height:64, startX:512, startY:0}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:288, startY:0}]
+				frames:[{width:64, height:64, startX:576, startY:0}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:320, startY:0}]
+				frames:[{width:64, height:64, startX:640, startY:0}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:32, startY:32}]
+				frames:[{width:64, height:64, startX:64, startY:64}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:64, startY:32}]
+				frames:[{width:64, height:64, startX:128, startY:64}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:96, startY:32}]
+				frames:[{width:64, height:64, startX:192, startY:64}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:128, startY:32}]
+				frames:[{width:64, height:64, startX:256, startY:64}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:160, startY:32}]
+				frames:[{width:64, height:64, startX:320, startY:64}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:192, startY:32}]
+				frames:[{width:64, height:64, startX:384, startY:64}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:224, startY:32}]
+				frames:[{width:64, height:64, startX:448, startY:64}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:256, startY:32}]
+				frames:[{width:64, height:64, startX:512, startY:64}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:288, startY:32}]
+				frames:[{width:64, height:64, startX:576, startY:64}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:320, startY:32}]
+				frames:[{width:64, height:64, startX:640, startY:64}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:32, height:32, startX:352, startY:32}]
+				frames:[{width:64, height:64, startX:704, startY:64}]
 			}
 		]
 	}
@@ -146,11 +138,6 @@ var caveData ={
 			[x,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,8,8,8,8,8,8,8,8,8,8],
 			[x,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,8,8,8,8,8,8,8,8,8,8],
 			[10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,8,8,8,8,8,8,8,8,8],
-			[x,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,8,8,8,8,8,8,8,8,8,8],
-			[x,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,8,8,8,8,8,8,8,8,8,8],
-			[x,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,8,8,8,8,8,8,8,8,8,8],
-			[x,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,8,8,8,8,8,8,8,8,8,8],
-			[x,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,8,8,8,8,8,8,8,8,8,8],
 			[x,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,8,8,8,8,8,8,8,8,8,8],
 			[x,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,8,8,8,8,8,8,8,8,8],
 			[x,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,8,8,8,8,8,8,8,8,8,8],
@@ -166,23 +153,13 @@ var caveData ={
 			info:{
 				layout:[
 					[13,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,7],
-					[13,14,14,14,14,15,18,16,17,17,16,13,14,14,14,15,16,16,17,16,16,18,16,17,16,18,16,13,14,15,16,17,16,16,10,16,10,13,14,14,14,14,15,18,16,17,13,14,14,14,14,14,14,14,15,16,17,13,14,14,15,16,17,17,16,16,16,17,13,14,14,14,14,7],
-					[13,15,x,10,x,10,x,x,x,x,x,x,17,10,18,x,x,x,x,x,x,x,x,x,x,x,x,10,18,x,x,x,x,x,x,x,x,10,17,10,x,18,10,x,x,x,10,18,10,16,17,10,18,10,x,x,x,10,17,10,x,x,x,x,x,x,x,x,x,10,10,16,18,7],
-					[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
-					[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
-					[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
-					[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
-					[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
-					[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
-					[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
-					[x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
-					[x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
-					[x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,14,14,14,14,14,14,14,14,14,14,14,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,14,14,14,14,14,14,14,7],
-					[x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,x,x,x,x,x,x,x,x,x,x,x,x,x,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,7],
-					[14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,7,8,8,8,8],
-					[2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,8,8,8,8,8,8]
-					
-					
+				[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
+				[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
+				[13,15,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
+				[x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
+				[x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,7],
+				[x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,x,x,x,x,x,x,x,x,x,x,x,x,x,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,7],
+				[14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8]	
 				],
 				src:`images/TileArt.png`,
 			},

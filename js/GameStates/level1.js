@@ -25,11 +25,11 @@ var leftBorder = new GameObject({width:50, height:canvas.height, world:level, x:
 
 
 //Cave foreground Tile Grid
-var cave = new Grid(caveData, {world:level, x:1024, tileHeight:32, tileWidth:32});
+var cave = new Grid(caveData, {world:level, x:1024, tileHeight:64, tileWidth:64});
 //Cave background Tile Grid
-var caveBack = new Grid(caveBackData, {world:level, x:1024, tileHeight:32, tileWidth:32});
+var caveBack = new Grid(caveBackData, {world:level, x:1024, tileHeight:64, tileWidth:64});
 //cave hitbox grid
-var caveHit = new Grid(caveHitData, {world:level, x:1024, tileHeight:32, tileWidth:32});
+var caveHit = new Grid(caveHitData, {world:level, x:1024, tileHeight:64, tileWidth:64});
 
 
 
