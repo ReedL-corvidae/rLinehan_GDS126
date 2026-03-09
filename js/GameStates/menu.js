@@ -22,6 +22,8 @@ gameStates[`menu`] =function(){
 		if(mouse.pressed)
 		{
 			//Changes to the game state
+			//Retro/classic game music.wav by ZHRØ -- https://freesound.org/s/668879/ -- License: Attribution 4.0
+			sounds.play('backMusic',0,true)
 			gameStates.changeState(`level1`)
 		}
 
